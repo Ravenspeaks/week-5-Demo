@@ -32,7 +32,7 @@ function timeInterval() {
   // peroidically call intervalCallback function once a second
   let timer = setInterval(intervalCallback, 1000);
 
-  // this function is a local function of the timeInterval function
+  // this function is a local function of the timeInterval the timeInterval function Is the eventhandler for button in webpage intervalcallback is the function called by the timer
   function intervalCallback() {
 
     // when the function is called, it will show the seconds in the current minute

@@ -67,7 +67,7 @@ function ternaryOp() {
   let today = new Date();
   let dayvalue = today.getDay();
   let htmlStr = "<h3>Weekday vs. Weekend Day</h3>";
-  htmlStr =
+  htmlStr +=
     dayvalue == 0 || dayvalue == 6
       ? "<p>Yeah, it is a weekend day. I can take a break! </p>"
       : "<p>Today is a weekday. Must go to work. </p>";

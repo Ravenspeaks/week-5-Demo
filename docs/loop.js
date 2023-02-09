@@ -20,7 +20,8 @@ function whileloop() {
   let i = 0;
   while (i < days.length) {
     htmlStr += "Day " + i + ": " + days[i] + ";\n";
-    if (i != 0 && i % 3 == 0) htmlStr += "<br>";
+    if (i != 0 && i % 3 == 0) { htmlStr += "<br>";
+  }
     i++;
   }
   document.getElementById("section1").innerHTML += htmlStr;
@@ -33,7 +34,9 @@ function dowhile() {
   let i = 0;
   do {
     htmlStr += "Day " + i + ": " + days[i] + ";\n";
-    if (i != 0 && i % 3 == 0) htmlStr += "<br>";
+    if (i != 0 && i % 3 == 0) {
+    htmlStr += "<br>";
+  }
     i++;
   } while (i < days.length);
   document.getElementById("section1").innerHTML += htmlStr;
